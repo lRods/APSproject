@@ -59,7 +59,7 @@ header a {
 /* ------- MAIN -------------------------------------------------- */
 
 main {
-    min-height: 95vh;
+    height: 95vh;
     background-color: #c7e5ec;
 }
 
