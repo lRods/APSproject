@@ -1,5 +1,6 @@
 html, body {
-    height: 100%;
+    width: 100%;
+    font-family: Arial;
 }
 
 html, body, header {
@@ -11,18 +12,18 @@ html, body, header {
 /* ------- MENU -------------------------------------------------- */
 
 .selected {
-    background-color: #75b5c5;
+    background-color: #4FBEC3;
 }
 
 .selected a {
-    color: white;
+    color: #fafafa;
 }
 
 header {
     position: fixed;
     width: 100%;
     height: 80px;
-    background-color: white;
+    background-color: rgba(250, 250, 250, 0.8);
     box-shadow: inset 0px -41px 16px -43px #8a8a8a;
 }
 
@@ -41,26 +42,41 @@ header li {
     padding: 10px 15px; 
     border-radius: 15px;
 }
+
+header li:first-child{
+    margin-right: 50px;
+}
+
 header a {
-    color: #75b5c5;
+    color: #4FBEC3;
     font-size: 1.3em;
-    font-weight: 800; 
+    font-weight: 600; 
     text-decoration: none;
     cursor: pointer;
 }
 
-#logo {
-    height: 50px;
-    width: 52px;
-    margin-right: 15px;
+a:hover{
+    text-decoration: underline;
 }
 
+#logo {
+    height: 60px;
+    width: 62px;
+
+}
+
+span{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.8em;
+    margin: 10px;
+    color: #4FBEC3;
+    font-weight: 800;
+}
 
 /* ------- MAIN -------------------------------------------------- */
 
 main {
     height: 95vh;
-    background-color: #c7e5ec;
 }
 
 #content {
@@ -75,10 +91,10 @@ footer {
     justify-content: center;
     align-items: center;
     padding-top: 5vh; 
-    height: 230px;
-    background-color: white;
+    height: 200px;
+    background-color: rgba(250, 250, 250, 0.8);
     box-shadow: inset 0px 43px 16px -43px #8a8a8a;
-    /* box-shadow: inset 0px 43px 14px -43px #525252; */
+
 }
 
 #markArea {
@@ -97,16 +113,13 @@ footer {
 }
 
 #markArea span {
-    color: #75b5c5;
-    font-size: 1.4em;
-    font-weight: 800;
-    margin: 5px 5px 0 0;  
+    font-size: 2em;
 }
 
 #namesArea {
     color: #4e8a99;
-    font-size: 1em;
-    font-weight: 800;
+    font-size: 0.8em;
+    font-weight: 600;
     display: flex;
     flex-direction: column;
     justify-content: center;

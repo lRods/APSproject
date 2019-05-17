@@ -1,0 +1,52 @@
+body{
+	background-color: #1d3550;
+	background-image: url("../images/fundo.jpg"), url("../images/fundo4.jpg");
+	background-position: top,bottom;
+	background-size: 100%;
+	background-repeat: no-repeat, repeat;
+	
+}
+
+main{
+	height: 2220px;
+}
+
+#container1{
+	height:1100px;
+	margin-top:100px;
+	margin-bottom: 100px;
+}
+
+.banner{
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.5);
+	padding: 80px;
+	text-align: center;
+	width: 80%;
+}
+
+
+h1{
+	text-align:center;
+	margin: 0 0 50px 0;
+	font-size:40px;
+}
+
+#titulo1{
+	color:gold;
+	text-shadow: 1px 2px 1px goldenrod;
+}
+
+#titulo2{
+	color:limegreen;
+	text-shadow: 1px 2px 1px forestgreen;
+}
+
+p{
+	font-size:22px;
+	text-align:justify;
+	font-weight: 600px;
+	color: #fafafa;
+	margin: 10px 10%;
+}
+
