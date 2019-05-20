@@ -1,35 +1,25 @@
 body{
-	background-color: #1d3550;
-	background-image: url("../images/fundo.jpg"), url("../images/fundo4.jpg");
-	background-position: top,bottom;
+	background-color: #040E0D;
+	background-image: url("../images/fundo.jpg");
 	background-size: 100%;
-	background-repeat: no-repeat, repeat;
-	
-}
-
-main{
-	height: 2220px;
-}
-
-#container1{
-	height:1100px;
-	margin-top:100px;
-	margin-bottom: 100px;
+	background-repeat: no-repeat;
 }
 
 .banner{
-	margin: 0 auto;
-	background-color: rgba(0,0,0,0.7);
-	padding: 80px;
+	margin: 70px auto;
+	background-color: rgba(0,0,0,0.6);
+	padding: 40px;
 	text-align: center;
-	width: 80%;
 	border-radius: 15px;
+	max-height: 800px;
 }
 
+main {
+    height: 150vh;
+}
 
 h1{
 	text-align:center;
-	margin: 0 0 50px 0;
 	font-size:40px;
 }
 
@@ -43,11 +33,19 @@ h1{
 	text-shadow: 1px 2px 1px forestgreen;
 }
 
+#titulo3{
+	color: #48D1CC;
+	text-shadow: 1px 2px 1px #00CED1;
+}
+
 p{
 	font-size:22px;
 	text-align:justify;
 	font-weight: 600px;
 	color: #fafafa;
-	margin: 10px 10%;
+	margin: 5% 10%;
 }
 
+.carousel{
+	margin: 5% auto;
+}
