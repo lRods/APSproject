@@ -1,26 +1,20 @@
 body{
-	background-color: #040E0D;
-	background-image: url("../images/fundo.jpg");
-	background-size: 100%;
-	background-repeat: no-repeat;
+	margin:0 auto;
+	background-color: #27545f;
 }
 
 .banner{
-	margin: 70px auto;
+	margin: 20px auto;
 	background-color: rgba(0,0,0,0.6);
-	padding: 40px;
+	padding: 10px;
 	text-align: center;
 	border-radius: 15px;
-	max-height: 800px;
-}
-
-main {
-    height: 150vh;
+	max-height: 400px;
 }
 
 h1{
 	text-align:center;
-	font-size:40px;
+	font-size:2em;
 }
 
 #titulo1{
@@ -35,17 +29,75 @@ h1{
 
 #titulo3{
 	color: #48D1CC;
-	text-shadow: 1px 2px 1px #00CED1;
+	text-shadow: 1px 2px 1px #008F92;
 }
 
 p{
-	font-size:22px;
+	font-size:1.2em;
 	text-align:justify;
-	font-weight: 600px;
 	color: #fafafa;
-	margin: 5% 10%;
+	margin: 15px 10%;
 }
 
-.carousel{
-	margin: 5% auto;
+b{
+	font-size:1.2em;
 }
+
+#carousel{
+	margin-bottom: 3%;
+}
+
+#divTitulo{
+	margin: 3% 0px;
+	padding: 15px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-family: "Cinzel script=all rev=2", "Adobe Blank";   	
+    font-style: normal;
+}
+
+#divTitulo h1{
+	margin:10px 0 20px;
+	letter-spacing: 10px;
+	font-size: 5em;
+}
+
+#divTitulo h2{
+	font-size: 1.5em;
+	font-variant: small-caps;
+}
+
+#imgIlha{
+	display: block;
+	margin: 3% auto;
+	width:960px;	
+}
+
+#video{
+	margin-bottom: 3%;
+	float: right;
+	width:50%;
+	text-align:center;
+}
+
+#materia{
+	margin-bottom: 3%;
+	padding: 15px;
+	float: left;
+	width:50%;
+	background-color: #f0f0f0;
+	box-shadow: 5px 5px 10px #1c1c1c;
+}	
+
+#materia p{
+	margin:20px;
+	color:black;
+}
+
+
+footer{
+	clear: both;
+}
+
+
