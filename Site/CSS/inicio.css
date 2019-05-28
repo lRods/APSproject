@@ -1,26 +1,56 @@
 body{
-	background-color: #040E0D;
-	background-image: url("../images/fundo.jpg");
+<<<<<<< HEAD
+	background-color: #1d3550;
+	background-image: url("../images/fundo.jpg"), url("../images/fundo4.jpg");
+	background-position: top,bottom;
 	background-size: 100%;
-	background-repeat: no-repeat;
+	background-repeat: no-repeat, repeat;
+	
+}
+
+main{
+	height: 2220px;
+}
+
+#container1{
+	height:1100px;
+	margin-top:100px;
+	margin-bottom: 100px;
 }
 
 .banner{
-	margin: 70px auto;
-	background-color: rgba(0,0,0,0.6);
-	padding: 40px;
-	text-align: center;
-	border-radius: 15px;
-	max-height: 800px;
+	margin: 0 auto;
+	background-color: rgba(0,0,0,0.7);
+	padding: 80px;
+=======
+	margin:0 auto;
+	background-color: #27545f;
 }
 
-main {
-    height: 150vh;
+.banner{
+	margin: 20px auto;
+	background-color: rgba(0,0,0,0.6);
+	padding: 10px;
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
+	text-align: center;
+	width: 80%;
+	border-radius: 15px;
+<<<<<<< HEAD
+}
+
+
+h1{
+	text-align:center;
+	margin: 0 0 50px 0;
+	font-size:40px;
+=======
+	max-height: 400px;
 }
 
 h1{
 	text-align:center;
-	font-size:40px;
+	font-size:2em;
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
 }
 
 #titulo1{
@@ -33,19 +63,86 @@ h1{
 	text-shadow: 1px 2px 1px forestgreen;
 }
 
+<<<<<<< HEAD
+=======
 #titulo3{
 	color: #48D1CC;
-	text-shadow: 1px 2px 1px #00CED1;
+	text-shadow: 1px 2px 1px #008F92;
 }
 
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
 p{
-	font-size:22px;
+	font-size:1.2em;
 	text-align:justify;
-	font-weight: 600px;
 	color: #fafafa;
-	margin: 5% 10%;
+<<<<<<< HEAD
+	margin: 10px 10%;
 }
 
-.carousel{
-	margin: 5% auto;
+=======
+	margin: 15px 10%;
 }
+
+b{
+	font-size:1.2em;
+}
+
+#carousel{
+	margin-bottom: 3%;
+}
+
+#divTitulo{
+	margin: 3% 0px;
+	padding: 15px;
+	text-align: center;
+	background-color: rgba(0,0,0,0.6);
+	color: white;
+	font-family: "Cinzel script=all rev=2", "Adobe Blank";   	
+    font-style: normal;
+}
+
+#divTitulo h1{
+	margin:10px 0 20px;
+	letter-spacing: 10px;
+	font-size: 5em;
+}
+
+#divTitulo h2{
+	font-size: 1.5em;
+	font-variant: small-caps;
+}
+
+#imgIlha{
+	display: block;
+	margin: 3% auto;
+	width:960px;	
+}
+
+#video{
+	margin-bottom: 3%;
+	float: right;
+	width:50%;
+	text-align:center;
+}
+
+#materia{
+	margin-bottom: 3%;
+	padding: 15px;
+	float: left;
+	width:50%;
+	background-color: #f0f0f0;
+	box-shadow: 5px 5px 10px #1c1c1c;
+}	
+
+#materia p{
+	margin:20px;
+	color:black;
+}
+
+
+footer{
+	clear: both;
+}
+
+
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
