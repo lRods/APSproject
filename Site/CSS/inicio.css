@@ -1,5 +1,6 @@
 body{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-color: #1d3550;
 	background-image: url("../images/fundo.jpg"), url("../images/fundo4.jpg");
 	background-position: top,bottom;
@@ -23,6 +24,8 @@ main{
 	background-color: rgba(0,0,0,0.7);
 	padding: 80px;
 =======
+=======
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
 	margin:0 auto;
 	background-color: #27545f;
 }
@@ -31,10 +34,14 @@ main{
 	margin: 20px auto;
 	background-color: rgba(0,0,0,0.6);
 	padding: 10px;
+<<<<<<< HEAD
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
+=======
 >>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
 	text-align: center;
 	width: 80%;
 	border-radius: 15px;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -43,6 +50,14 @@ h1{
 	text-align:center;
 	margin: 0 0 50px 0;
 	font-size:40px;
+=======
+	max-height: 400px;
+}
+
+h1{
+	text-align:center;
+	font-size:2em;
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
 =======
 	max-height: 400px;
 }
@@ -76,10 +91,13 @@ p{
 	text-align:justify;
 	color: #fafafa;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin: 10px 10%;
 }
 
 =======
+=======
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
 	margin: 15px 10%;
 }
 
@@ -105,6 +123,7 @@ b{
 	margin:10px 0 20px;
 	letter-spacing: 10px;
 	font-size: 5em;
+<<<<<<< HEAD
 }
 
 #divTitulo h2{
@@ -118,6 +137,21 @@ b{
 	width:960px;	
 }
 
+=======
+}
+
+#divTitulo h2{
+	font-size: 1.5em;
+	font-variant: small-caps;
+}
+
+#imgIlha{
+	display: block;
+	margin: 3% auto;
+	width:960px;	
+}
+
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
 #video{
 	margin-bottom: 3%;
 	float: right;
@@ -145,4 +179,7 @@ footer{
 }
 
 
+<<<<<<< HEAD
+>>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
+=======
 >>>>>>> d186f9c02ec4dbcf923892b931a7c5a08d3025dc
