@@ -1,98 +1,117 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+  <head>
     <meta charset="UTF-8">
     <link rel="shortcut icon" href="../Images/Logo.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap">
     <link rel="stylesheet" href="../CSS/bootstrap.css">
-    <link rel="stylesheet" href="../CSS/bootstrap.min.css">
-	<link rel="stylesheet" href="../CSS/layout.css">
-    <link rel="stylesheet" href="../CSS/solucao.css">	
-    <link href="https://fonts.googleapis.com/css?family=Amatic+SC&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <!-- <link rel="stylesheet" href="CSS/inicio.css"> -->
     <title>Salve o Oceano - Soluções</title>
-</head>
-<body>
-    <header>
-        <ul>
-            <li><img id="logo" src="../Images/Logo.png" alt="Logo" align="left"><span>Salve o Oceano</span></li>
-            <li><a href="../index.html">Início</a></li>
-            <li class="selected"><a href="problema.html">Como Posso AJudar?</a></li>
-            <li><a href="consequencias.html">Consequências</a></li>
-            <li><a href="solucoes.html">Soluções</a></li>
-            <li><a href="comoAjudar.html">Como Ajudar</a></li>
+  </head>
+  <body>
+    <!--------- MENU --------->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+      <div class="logo-area mx-5 my-2">
+        <img class="logo" src="../Images/Logo.png" alt="Logo">
+        <span class="logo-name ml-2">Salve o Oceano</span>
+      </div>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item px-3"><a class="nav-link" href="../index.html">Início</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="problema.html">O Problema</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="consequencias.html">Consequências</a></li>
+          <li class="nav-item px-3 selected"><a class="nav-link" href="solucoes.html">Soluções</a></li>
+          <li class="nav-item px-3"><a class="nav-link" href="comoAjudar.html">Como Ajudar</a></li>
         </ul>
-    </header>
-    <main>
-        <!-- AREA PARA CONTEUDO DESTA PAGINA ⬇ -->
-        <div id="content">
-             
-           <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-    <h1 class="display-4">Solução</h1>
-    <p class="lead">A Poluição Oceânica existe uma Solução?</p>
-     </div>
-     </div>
-	     
-          <table>
-		<tr>
-		<td>
-		 <img src="../Images/imgs3.jpg" alt="Lixeira Oceânica" class="img-thumbnail" width="1000px" height="1000px">
-         <div class="legenda"><figcaption>Imagem Seabin.Foto:<cite>eco-business.com</cite></figcaption></div>   
-		</td>
-		<td>
-		<div class="shadow p-3 mb-5 bg-white rounded"><h2>Seabin</h2><p>Trata-se de uma espécie de lixeira que quando colocada no mar é capaz de retirar qualquer tipo de resíduo da superfície do mar. O invento é composto de cestos de lixo acoplados a bombas aquáticas que conseguem remover resíduos sólidos da água de maneira automática. As Seabins são como lixeiras tradicionais, no entanto, não utilizam um saco de lixo normal, mas sim uma espécie de filtro. A bomba acoplada faz com que a água passe continuamente pelo filtro e assim, faz com que os resíduos sólidos fiquem presos no filtro. Tudo o que tiver sujo no mar, é capturado pelo sistema e preso em uma tela de retenção que fica dentro da lata.</p></div>
-		</td>
-		</tr>
-		<tr>
-		<td>
-		<div class="shadow p-3 mb-5 bg-white rounded"><h2>OceanCleanupArray</h2><p>Criado por um jovem holandês essa ideia consiste em usar as correntes marinhas para ajudar a captura de plástico nos oceanos. A ideia consiste basicamente em uma barreira flutuante que aproveita o movimento natural das correntes oceânicas para bloquear o lixo encontrado no caminho. A barreira formada por boias fica fixa no oceano e “segura” todo tipo de lixo e plástico que passar por ali, enquanto a maré e a vida aquática pode passar normalmente por baixo da superfície. O lixo reunido seria recolhido posteriormente. O objetivo do projeto é construir uma estrutura de 100 km capaz de recolher 70 mil toneladas de plástico em 10 anos.</p></div>
-		</td>
-		<td>
-		<img src="../Images/imgs2.jpg" alt="Barreira Flutuante" class="img-thumbnail" width="500px" height="500px">
-         <div class="legenda"><figcaption>  Imagem OceanCleanupArray.Foto:<cite>theoceancleanup.com</cite></figcaption></div>
-		</td>
-		</tr>
-		<tr>
-		<td>
-		<img src="../Images/imgs4.jpg" alt="Marine Drone" class="img-thumbnail" width="450px" height="450px">
-         <div class="legenda"><figcaption>Imagem Marine Drone.Foto:<cite>by STAFF WRITER . 15 de julho de 2012, às 6:41</cite></figcaption></div>
-		</td>
-		<td>
-		<div class="shadow p-3 mb-5 bg-white rounded"><h2>Marine Drone</h2><p>Criado por um grupo de designers franceses trata-se de um robô para limpar as águas do mar. O equipamento funcionaria como uma rede de pescador guiada via satélite. Ao se mover na água, ela coletaria apenas o lixo. O robô navegaria com orientações via satélite e sua energia seria captada de pequenas baterias. A água com sujeira entra pela abertura maior conforme o pequeno motor elétrico empurra o robô e escoa até a “boca” posterior do MarineDrone onde uma rede retém os detritos. Para evitar que peixes e demais animais marítimos acabem presos no bojo do dispositivo, os inventores do robô pensaram em umemissor de ondas sonoras em frequências que afastam os animais.</p></div>
-		  </table>
-		  
-		  
-		  
-		  
-		  
-		  
-        </div>
-        <!-- AREA PARA CONTEUDO DESTA PAGINA ⬆ -->
+      </div>
+    </nav>
+
+    <!--------- CONTEUDO --------->
+    <main class="p-5">
+      <div class="titulo d-flex flex-column justify-content-center align-items-center">
+        <h1 class="display-4">Soluções</h1>
+        <p class="lead text-center">Existe uma solução para a poluição oceânica?</p>
+      </div>
+
+      <div class="d-flex flex-sm-column flex-lg-row justify-content-center align-items-center box">
+        <picture class="d-flex flex-sm-column justify-content-center align-items-center">
+          <img src="../Images/imgs3.jpg" alt="Lixeira Oceânica" class="img-thumbnail" width="500px" height="500px">
+          <figcaption>Imagem Seabin.Foto:<cite>eco-business.com</cite></figcaption>
+        </picture>
+        <p class="shadow p-4 ml-5 mt-4">
+          <span>Seabin</span><br>
+          Trata-se de uma espécie de lixeira que quando colocada no mar é capaz de retirar qualquer
+          tipo de resíduo da superfície do mar. O invento é composto de cestos de lixo acoplados a 
+          bombas aquáticas que conseguem remover resíduos sólidos da água de maneira automática. 
+          As Seabins são como lixeiras tradicionais, no entanto, não utilizam um saco de lixo normal, 
+          mas sim uma espécie de filtro. A bomba acoplada faz com que a água passe continuamente pelo 
+          filtro e assim, faz com que os resíduos sólidos fiquem presos no filtro. Tudo o que tiver sujo 
+          no mar, é capturado pelo sistema e preso em uma tela de retenção que fica dentro da lata.
+        </p>
+      </div>
+
+      <div class="d-flex flex-sm-column flex-lg-row justify-content-center align-items-center box">
+        <p class="shadow p-4 mr-5 mb-4">
+          <span>OceanCleanupArray</span><br>
+          Criado por um jovem holandês essa ideia consiste em usar as correntes marinhas para ajudar a
+          captura de plástico nos oceanos. A ideia consiste basicamente em uma barreira flutuante que 
+          aproveita o movimento natural das correntes oceânicas para bloquear o lixo encontrado no caminho. 
+          A barreira formada por boias fica fixa no oceano e “segura” todo tipo de lixo e plástico que passar 
+          por ali, enquanto a maré e a vida aquática pode passar normalmente por baixo da superfície. O lixo 
+          reunido seria recolhido posteriormente. O objetivo do projeto é construir uma estrutura de 100 km 
+          capaz de recolher 70 mil toneladas de plástico em 10 anos.
+        </p>
+        <picture class="d-flex flex-sm-column justify-content-center align-items-center">
+          <img src="../Images/imgs2.jpg" alt="Barreira Flutuante" class="img-thumbnail" width="500px" height="500px">
+          <figcaption>Imagem OceanCleanupArray.Foto:<cite>theoceancleanup.com</cite></figcaption>
+        </picture>
+      </div>
+
+      <div class="d-flex flex-sm-column flex-lg-row justify-content-center align-items-center box">
+        <picture class="d-flex flex-sm-column justify-content-center align-items-center">
+          <img src="../Images/imgs4.jpg" alt="Marine Drone" class="img-thumbnail" width="500px" height="500px">
+          <figcaption>Imagem Marine Drone.Foto:<cite>by STAFF WRITER . 15 de julho de 2012, às 6:41</cite></figcaption>
+        </picture>
+        <p class="shadow p-4 ml-5 mt-4">
+          <span>Marine Drone</span>Criado por um grupo de designers franceses trata-se de um robô para limpar
+          as águas do mar. O equipamento funcionaria como uma rede de pescador guiada via satélite. Ao se mover
+          na água, ela coletaria apenas o lixo. O robô navegaria com orientações via satélite e sua energia seria
+          captada de pequenas baterias. A água com sujeira entra pela abertura maior conforme o pequeno motor 
+          elétrico empurra o robô e escoa até a “boca” posterior do MarineDrone onde uma rede retém os detritos. 
+          Para evitar que peixes e demais animais marítimos acabem presos no bojo do dispositivo, os inventores do 
+          robô pensaram em umemissor de ondas sonoras em frequências que afastam os animais.
+        </p>
+      </div>
     </main>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <footer>
-        <div id="markArea">
-            <img id="logo" src="../Images/Logo.png" alt="Logo">
-            <span>Salve o Oceano</span>
-        </div>
-        <div id="namesArea">
-            <h3>Desenvolvido por:</h2>
-            <ul>
-                <li>Fabiana</li>
-                <li>Beatriz</li>
-                <li>Matheus</li>
-                <li>Gabriel</li>
-                <li>Cauê</li>
-                <li>Lucas</li>
-                <li>Rodrigo Maia</li>
-            </ul>
-        </div>
+
+    <!--------- FOOTER --------->
+    <footer class="d-flex justify-content-center align-items-center py-5">
+      <div id="marca-area" class="d-flex flex-column justify-content-center align-items-center pr-4">
+        <img class="logo" src="../Images/Logo.png" alt="Logo">
+        <span class="logo-name">Salve o Oceano</span>
+      </div>
+      <div id="nomes-area" class="d-flex flex-column justify-content-center pl-4">
+        <h3 class="pb-2">Desenvolvido por:</h3>
+        <ul>
+          <li>Fabianne Azevedo</li>
+          <li>Beatriz Almeida</li>
+          <li>Matheus Fernando</li>
+          <li>Gabriel Viena</li>
+          <li>Cauê Felipe</li>
+          <li>Lucas dos Santos</li>
+          <li>Rodrigo Maia</li>
+        </ul>
+      </div>
     </footer>
-	
-	
-	<script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-	
-</body>
+
+  </body>
+  
+  <script src="../JavaScript/jquery.min.js"></script>
+  <script src="../JavaScript/bootstrap.min.js"></script>
 </html>
